@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "my-alb-lambda-test"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1fyoxc7l7jshh"
+s3_prefix = "my-alb-lambda-test"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
